@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <form action='registration.php' method="post">
+        <input type="hidden" name="user_id" value="<?= (isset($id)) ? $id : ''?>">
+        <a href="./infosheet12.pdf" target="_blank">show </a>
+
+        <a href="./infosheet12.pdf" download target="_blank">Dowload </a>
+        <table>
+            <tbody>
+                <tr>
+                    <td>username</td>
+                    <td><input name="user_name" value="" type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="submit"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form> 
+</body>
+
+</html>
